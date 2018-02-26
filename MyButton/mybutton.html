@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>My Button</title>
+    <link rel='stylesheet' href='syles.css' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+      p {
+        color: pink;
+        margin: 10px;
+        font-size: 32px;
+        align-content: flex-end;
+
+      }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("button").click(function() {
+          $("div").animate({
+            height: "toggle"
+
+          });
+        });
+      });
+    </script>
+
+  </head>
+
+  <body>
+    <p> I miss my dog, Winston. </p>
+    <p> He is a very good boy. </p>
+    <p> If you call him, he will come. </p>
+    <p> But he's a moody pup and will leave if you bug him too much. </p>
+    <p> Don't poke him, or he will get mad and run away! </p>
+    <button> *poke* </button>
+    <div class="photo">
+      <img class="winston" src="photos/winston.jpg" </div>
+
+  </body>
+
+</html>

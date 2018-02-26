@@ -1,0 +1,11 @@
+body {
+  background-color: #83d4ec;
+}
+
+p {
+  color: pink;
+  margin: 10px;
+  font-size: 32px;
+  align-content: flex-end;
+  font-family: 'Open Sans', sans-serif;
+}
